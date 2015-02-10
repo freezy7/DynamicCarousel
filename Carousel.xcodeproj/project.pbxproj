@@ -14,6 +14,8 @@
 		A595FD4E1A6F471E0077BB14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A595FD4D1A6F471E0077BB14 /* Images.xcassets */; };
 		A595FD511A6F471E0077BB14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A595FD4F1A6F471E0077BB14 /* LaunchScreen.xib */; };
 		A595FD5D1A6F471E0077BB14 /* CarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A595FD5C1A6F471E0077BB14 /* CarouselTests.m */; };
+		A595FD691A6F4F2E0077BB14 /* SCCollectionViewSampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A595FD671A6F4F2E0077BB14 /* SCCollectionViewSampleCell.m */; };
+		A595FD6D1A6F6A600077BB14 /* SCItemBehaviorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A595FD6C1A6F6A600077BB14 /* SCItemBehaviorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		A595FD561A6F471E0077BB14 /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A595FD5B1A6F471E0077BB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A595FD5C1A6F471E0077BB14 /* CarouselTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselTests.m; sourceTree = "<group>"; };
+		A595FD661A6F4F2E0077BB14 /* SCCollectionViewSampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCollectionViewSampleCell.h; sourceTree = "<group>"; };
+		A595FD671A6F4F2E0077BB14 /* SCCollectionViewSampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCollectionViewSampleCell.m; sourceTree = "<group>"; };
+		A595FD6B1A6F6A600077BB14 /* SCItemBehaviorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCItemBehaviorManager.h; sourceTree = "<group>"; };
+		A595FD6C1A6F6A600077BB14 /* SCItemBehaviorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCItemBehaviorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				A595FD471A6F471E0077BB14 /* ViewController.h */,
 				A595FD481A6F471E0077BB14 /* ViewController.m */,
 				A595FD4A1A6F471E0077BB14 /* Main.storyboard */,
+				A595FD6B1A6F6A600077BB14 /* SCItemBehaviorManager.h */,
+				A595FD6C1A6F6A600077BB14 /* SCItemBehaviorManager.m */,
+				A595FD661A6F4F2E0077BB14 /* SCCollectionViewSampleCell.h */,
+				A595FD671A6F4F2E0077BB14 /* SCCollectionViewSampleCell.m */,
 				A595FD4D1A6F471E0077BB14 /* Images.xcassets */,
 				A595FD4F1A6F471E0077BB14 /* LaunchScreen.xib */,
 				A595FD401A6F471E0077BB14 /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				A595FD491A6F471E0077BB14 /* ViewController.m in Sources */,
 				A595FD461A6F471E0077BB14 /* AppDelegate.m in Sources */,
+				A595FD691A6F4F2E0077BB14 /* SCCollectionViewSampleCell.m in Sources */,
 				A595FD431A6F471E0077BB14 /* main.m in Sources */,
+				A595FD6D1A6F6A600077BB14 /* SCItemBehaviorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
